@@ -1,0 +1,22 @@
+/* Ensure html and body take full height */
+html, body {
+  margin: 0;
+  padding-top: 20px;
+  height: 100%;
+}
+
+/* Fullscreen container */
+.img {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Make the image cover the entire screen */
+.img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  padding-bottom: 20px;
+}
